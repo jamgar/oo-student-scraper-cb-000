@@ -57,7 +57,8 @@ This is a class method that should take in an argument of a student's profile UR
 
 ```ruby
 Scraper.scrape_profile_page(profile_url)
-# => {:twitter=>"http://twitter.com/flatironschool",
+# =>
+    {:twitter=>"http://twitter.com/flatironschool",
       :linkedin=>"https://www.linkedin.com/in/flatironschool",
       :github=>"https://github.com/learn-co,
       :blog=>"http://flatironschool.com",
